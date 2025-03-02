@@ -1,0 +1,53 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            text-align: center;
+        }
+        .product-form, .order-form {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .product-form input, .product-form button, .order-form input, .order-form button {
+            padding: 10px;
+            font-size: 16px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #3f51b5;
+            color: white;
+        }
+        button {
+            cursor: pointer;
+            background-color: #3f51b5;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #303f9f;
+        }
+    
